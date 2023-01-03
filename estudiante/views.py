@@ -23,3 +23,6 @@ def mi_nombre(request, nombre):
 
 
 # Probando template
+
+def mi_plantilla(request):
+    return render(request=request, template_name='estudiante\lista_estudiante.html')
